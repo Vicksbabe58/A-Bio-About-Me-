@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  max-width: 100%;
+  font-family: "Roboto", "Mukta", "Nanum Gothic", "Pacifico", sans-serif;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 3.5rem;
+  background-color: darkgrey;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+}
+
+nav h1 {
+  color: crimson;
+}
+ul {
+  list-style-type: none;
+}
+nav a {
+  text-decoration: none;
+  color: crimson;
+  transition: all 200ms ease;
+}
+nav a:hover {
+  color: blueviolet;
+}
+nav i {
+  color: crimson;
+  font-size: 2rem;
+  cursor: pointer;
+}
+nav ul {
+  display: flex;
+  gap: 1.9em;
+}
+li {
+  font-weight: 800;
+}
+img {
+  height: 29.5rem;
+  width: 27.5rem;
+  margin-top: 20px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.6);
+}
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+p {
+  line-height: 1.5rem;
+  text-align: justify;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  max-width: 68.75rem;
+  margin: 16px auto;
+}
+.main {
+  width: 25rem;
+  padding: 0.625rem;
+  border-radius: 6px;
+  box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.6);
+}
