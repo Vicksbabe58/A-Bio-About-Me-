@@ -14,45 +14,150 @@
       href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300&family=Nanum+Gothic:wght@700;800&family=Pacifico&family=Roboto:ital,wght@0,300;0,500;0,700;1,300;1,500&display=swap"
       rel="stylesheet"
     />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
     <title>WELCOME</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <h1>Hi There 👋👋</h1>
-        <ul class="navigation">
-          <li><a href="#home" class="nav-link"> Home </a></li>
-          <li><a href="#about" class="nav-link"> About </a></li>
-          <li><a href="#services" class="nav-link"> Services </a></li>
-          <li><a href="./project.html" class="nav-link"> Portfolio </a></li>
-          <li><a href="./contact.html" class="nav-link"> Contact </a></li>
-        </ul>
-        <i class="fa-solid fa-bars" class="menu-outline"></i>
-      </nav>
-    </header>
+    <nav class="nav-bar" id="bar">
+      <h1 id="home">Hi There 👋👋</h1>
+      <ul class="navigation" id="nav">
+        <li><a href="#home" class="nav-link"> Home </a></li>
+        <li><a href="#about" class="nav-link"> About </a></li>
+        <li><a href="#services" class="nav-link"> Services </a></li>
+        <li><a href="./project.html" class="nav-link"> Portfolio </a></li>
+        <li><a href="./contact.html" class="nav-link"> Contact </a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <i class="fa-solid fa-bars" class="menu-outline" id="menu-outline"></i>
+      </button>
+    </nav>
+
     <main>
-      <section class="hero">
-        <img src="../image/Bosslady.jpg" alt="Bosslady" />
-        <div class="main">
-          <h2 class="bio-title">About Me</h2>
-          <p class="bio-text">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga
-            asperiores, dolor numquam exercitationem earum tempore error laborum
-            explicabo? Beatae corrupti consequuntur, eum modi facere porro nemo
-            exercitationem possimus labore accusantium. Delectus voluptatem
-            assumenda dolor doloremque ullam quis ipsum tempore accusamus vitae
-            quo tempora unde, laudantium nisi saepe enim ratione autem illum
-            esse. Itaque, numquam quibusdam ea porro corrupti aspernatur
-            consectetur? Pariatur laborum, dicta assumenda fugit minus
-            necessitatibus nostrum explicabo accusamus magni consectetur dolores
-            similique, dolorem voluptatem deleniti? Inventore sint magni
-            similique cumque molestias excepturi, aspernatur ullam ea
-            repudiandae deserunt nam.
-          </p>
+      <header>
+        <section class="hero">
+          <img src="../image/Bosslady.jpg" alt="Bosslady" class="picture" />
+          <div class="bio">
+            <h2 class="bio-title">Welcome</h2>
+            <p class="bio-text">Welcome, I am glad you are here💖💖</p>
+          </div>
+        </section>
+      </header>
+      <section class="about-me" id="about">
+        <h2>About Me</h2>
+        <p>
+          Hi 👋👋 I am Victory T. Ilikah and an Aspiring Full-Stack Web
+          Developer. It's been 5 monthssince i started learning web development.
+          I have developed few websites and also provided my services to my
+          colleges students by collaborating on projects together. I have been
+          paert of some very good web design projects. I am currently learning
+          Full-Stack Web Development on ZURI and Front-End Web Development on
+          SheCodes.
+        </p>
+      </section>
+      <section class="skills">
+        <h2>My Skills</h2>
+        <div class="wrapper">
+          <div class="first-icon">
+            <img
+              src="../image/icons/icons8-html-5-96.svg"
+              alt="Html5"
+              class="logo logo-card"
+              loading="lazy"
+            />
+            <img
+              src="../image/icons/icons8-css3-96.svg"
+              alt="CSS3"
+              class="logo logo-card"
+              loading="lazy"
+            />
+            <img
+              src="../image/icons/icons8-javascript-96.svg"
+              alt="JavaScript"
+              class="logo logo-card"
+              loading="lazy"
+            />
+            <img
+              src="../image/icons/icons8-git-96.svg"
+              alt="Git"
+              class="logo logo-card"
+              loading="lazy"
+            />
+          </div>
+          <div class="second-icon">
+            <img
+              src="../image/icons/icons8-github-96.svg"
+              alt="Github"
+              class="logo logo-card"
+              loading="lazy"
+            />
+            <img
+              src="../image/icons/icons8-bootstrap-96.svg"
+              alt="Bootstrap"
+              class="logo logo-card"
+              loading="lazy"
+            />
+            <img
+              src="../image/icons/icons8-nodejs-96.svg"
+              alt="Nodejs"
+              class="logo logo-card"
+              loading="lazy"
+            />
+            <img
+              src="../image/icons/icons8-react-native-96.svg"
+              alt="React"
+              class="logo logo-card"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="skill" id="services">
+        <div class="wrapper-union">
+          <div class="first-union">
+            <h4>My Hobbies</h4>
+            <ol class="union">
+              <li>Playing Games</li>
+              <li>Singing</li>
+              <li>Reading comics and novels</li>
+              <li>Watching Movies and Cartoon</li>
+              <li>Fashion Designer</li>
+            </ol>
+
+            <h4>Other Skills</h4>
+            <ol class="union">
+              <li>Constantly learning and improving</li>
+              <li>Communicating well with others</li>
+              <li>Perfectionism</li>
+              <li>Patience</li>
+            </ol>
+          </div>
+          <div class="second-union">
+            <h4>Priority</h4>
+            <ol class="union">
+              <li>To be a succesful full stack web developer</li>
+              <li>To be Rich in all areas of Life</li>
+            </ol>
+
+            <h4>My Services</h4>
+            <ol class="union">
+              <li>Web Programming</li>
+              <li>Web Hosting</li>
+              <li>Web Design</li>
+              <li>Web devlopment</li>
+            </ol>
+          </div>
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <p class="copy">© Copyright 2022</p>
+      <p class="copy">
+        Built with 💖 by
+        <a href="http://twitter.com/vicksbabe588">Victory T. Ilikah</a>
+      </p>
+    </footer>
+    <script src="./about.js"></script>
   </body>
 </html>
